@@ -1,8 +1,8 @@
 # Rick and Morty App
 
-![Logo project](https://github.com/pi10el/rick-and-morty/raw/main/public/logo192.png)
+![Logo project](https://github.com/pi10el/rick-and-morty-app/raw/main/public/logo192.png)
 
-## Release: [![Netlify Status](https://api.netlify.com/api/v1/badges/87b5ee72-f22e-436f-b584-c17066f53d1d/deploy-status)](https://spontaneous-panda-1d9a3a.netlify.app/)
+## Release: [![Netlify Status](https://api.netlify.com/api/v1/badges/fe06bfd1-79d6-4750-b339-b2e77e136f36/deploy-status)](https://merry-kashata-e03f16.netlify.app/)
 
 ### Краткое описание
 

@@ -4,8 +4,8 @@ import {
   PreloadedState,
 } from '@reduxjs/toolkit';
 import { ToolkitStore } from '@reduxjs/toolkit/dist/configureStore';
-import { api } from './slices/api';
 import paramsSlice from './slices/params';
+import { api } from './slices/api';
 
 const rootReducer = combineReducers({
   [paramsSlice.name]: paramsSlice.reducer,
@@ -26,9 +26,3 @@ export const setupStore = (
 export type RootState = ReturnType<typeof rootReducer>;
 export type AppStore = ReturnType<typeof setupStore>;
 export type AppDispatch = AppStore['dispatch'];
-// export type AppThunk<ReturnType = void> = ThunkAction<
-//   ReturnType,
-//   RootState,
-//   unknown,
-//   Action<string>
-// >;
