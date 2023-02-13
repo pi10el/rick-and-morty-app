@@ -1,0 +1,36 @@
+.portal {
+  width: 100%;
+  height: 100%;
+
+  & > circle {
+    fill: #a7cb54;
+  }
+
+  & > path {
+    transform-origin: center center;
+  }
+}
+
+.darkgreen {
+  fill: #208d45;
+  animation: rotate 5s linear infinite;
+}
+
+.lightgreen {
+  fill: #5cad4a;
+  animation: rotate 10s linear infinite;
+}
+
+.white {
+  fill: #fff;
+  animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,15 @@
+.link {
+  margin-left: 10px;
+  opacity: 0.5;
+  width: 30px;
+  height: 30px;
+  transition: 0.2s ease;
+
+  & > svg {
+    fill: #ebebf3;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}

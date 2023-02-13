@@ -1,0 +1,30 @@
+.filter {
+  padding: 10px;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #13171c;
+  border: 1px solid #121b0f;
+  box-shadow: inset 0 0 4px 0 #00000070;
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #9fa268;
+
+    & ~ fieldset {
+      margin-top: 10px;
+    }
+
+    & > button ~ button {
+      margin-top: 10px;
+    }
+  }
+
+  legend {
+    color: #ebebf3;
+    padding: 0 10px;
+  }
+}
